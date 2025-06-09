@@ -6,22 +6,22 @@ export const Features = () => {
     {
       icon: Ruler,
       title: "Sob Medida",
-      description: "Cada móvel é projetado especificamente para o seu espaço, aproveitando cada centímetro disponível."
+      description: "Cada cortina é feita especialmente para o seu ambiente, aproveitando cada centímetro com perfeição."
     },
     {
       icon: Palette,
       title: "Design Personalizado",
-      description: "Criamos peças únicas que refletem seu estilo e necessidades específicas."
+      description: "Criamos cortinas exclusivas que combinam com seu estilo e atendem às suas necessidades."
     },
     {
       icon: Clock,
       title: "Entrega Rápida",
-      description: "Prazos claros e cumpridos. Qualidade sem demora."
+      description: "Cumprimos prazos com eficiência. Qualidade e agilidade em cada etapa."
     },
     {
       icon: Award,
       title: "Qualidade Garantida",
-      description: "Materiais de primeira linha e acabamento impecável em cada projeto."
+      description: "Trabalhamos com tecidos de alta qualidade e acabamento impecável em cada cortina."
     }
   ];
 
@@ -30,7 +30,7 @@ export const Features = () => {
       <div className="container mx-auto px-8 lg:px-24 xl:px-32">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-inter">
-            Por que escolher nossos móveis?
+            Por que escolher nossas cortinas?
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto font-inter">
             Experiência, qualidade e compromisso em cada projeto

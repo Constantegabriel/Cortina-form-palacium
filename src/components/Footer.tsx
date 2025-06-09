@@ -25,7 +25,8 @@ export const Footer = () => {
               <span className="text-white font-bold text-xl font-inter">Palacium Ambientes</span>
             </div>
             <p className="text-gray-400 mb-8 leading-relaxed font-inter">
-            Há mais de 15 anos transformando ambientes e realizando sonhos através de móveis sob medida únicos e funcionais.
+            Há mais de 15 anos transformando ambientes e realizando sonhos através
+            de cortinas sob medida que unem elegância, praticidade e estilo.
             </p>
             <div className="flex space-x-4">
               <a 

@@ -12,7 +12,7 @@ export const About = () => {
             Nossa História
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto font-inter">
-            Há mais de 15 anos transformando ambientes e realizando sonhos através de móveis sob medida únicos e funcionais.
+            Há mais de 15 anos transformando ambientes e realizando sonhos através de cortinas sob medida que unem elegância, praticidade e estilo.
           </p>
         </div>
 
@@ -24,8 +24,8 @@ export const About = () => {
                 Nossa Missão
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6 font-inter">
-                Criar móveis sob medida que combinam funcionalidade, beleza e qualidade excepcional, 
-                transformando cada espaço em um ambiente único que reflete a personalidade e necessidades de nossos clientes.
+                Criar cortinas sob medida que combinam funcionalidade, beleza e qualidade excepcional, 
+                transformando cada ambiente em um espaço único que reflete a personalidade e necessidades de nossos clientes.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed font-inter">
                 Acreditamos que cada projeto é uma oportunidade de criar algo especial, 
@@ -70,8 +70,8 @@ export const About = () => {
                 Nosso Compromisso
               </h3>
               <p className="text-gray-300 leading-relaxed font-inter">
-                Estamos comprometidos em superar expectativas, oferecendo móveis sob medida 
-                que combinam design excepcional, funcionalidade inteligente e acabamento impecável. 
+                Estamos comprometidos em superar expectativas, oferecendo cortinas sob medida 
+                que unem design sofisticado, funcionalidade inteligente e acabamento impecável. 
                 Cada projeto é tratado com carinho e dedicação únicos.
               </p>
             </div>

@@ -12,7 +12,7 @@ export const Hero = () => {
       <div 
         className="overflow-x-hidden absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("/kitchen.jpg")',
+          backgroundImage: 'url("/lovable-uploads/background.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
@@ -21,7 +21,7 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-8 lg:px-16 xl:px-24 pt-20">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3 font-inter leading-tight">
-          Móveis Sob Medida
+          Cortinas Sob Medida
         </h1>
         
         {/* Linha divisória */}
@@ -33,7 +33,7 @@ export const Hero = () => {
         </p>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto font-inter leading-relaxed">
-          Transformamos seus ambientes com Moveis únicos e funcionais, 
+          Transformamos seus ambientes com Cortinas únicos e funcionais, 
           criados especialmente para o seu espaço e necessidades.
         </p>
 

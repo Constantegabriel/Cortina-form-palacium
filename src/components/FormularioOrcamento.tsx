@@ -62,13 +62,13 @@ export const FormularioOrcamento = () => {
     }
 
     const mensagem = `
-*NOVO ORÇAMENTO - MOVEIS SOB MEDIDA*
+*NOVO ORÇAMENTO - CORTINAS SOB MEDIDA*
 
 👤 *Nome:* ${formData.nome}
 📱 *Telefone:* ${formData.telefone}
 📍 *Cidade:* ${formData.cidade}
 
-🛠️ *Tipos de Moveis:* ${formData.tipo.join(', ')}
+🛠️ *Tipos de Cortinas:* ${formData.tipo.join(', ')}
 💰 *Orçamento:* ${formData.orcamento}
 ⏰ *Prazo Desejado:* ${formData.prazo}
 
@@ -147,16 +147,19 @@ ${formData.descricao}
             {/* Tipos de Cortinas */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-white border-b border-gray-600 pb-2 font-inter">
-                Tipos de Moveis *
+                Tipos de Cortinas *
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {[
-                  { id: 'cozinha', label: 'Cozinha' },
-                  { id: 'closet', label: 'Closet' },
-                  { id: 'banheiro', label: 'Banheiro' },
-                  { id: 'sala', label: 'Sala' },
-                  { id: 'home-office', label: 'Home-office' },
-                  { id: 'outros', label: 'Outros' },
+                  { id: 'tecido-tradicional', label: 'Tecido Tradicional' },
+                  { id: 'cortina-rolo', label: 'Cortina Rolô' },
+                  { id: 'double-vision', label: 'Double Vision' },
+                  { id: 'romana', label: 'Romana' },
+                  { id: 'persiana-horizontal', label: 'Pers. Horizontal' },
+                  { id: 'persiana-vertical', label: 'Pers. Vertical' },
+                  { id: 'painel', label: 'Painel Deslizante' },
+                  { id: 'blackout', label: 'Blackout' },
+                  { id: 'outros', label: 'Outros' }
                 ].map(({ id, label }) => (
                   <label
                     key={id}

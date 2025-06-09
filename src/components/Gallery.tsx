@@ -5,22 +5,22 @@ export const Gallery = () => {
   const projects = [
     {
       title: "Cozinha Moderna",
-      image: "/kitchen.jpg",
+      image: "/cortina1.jpg",
       description: "Cozinha planejada com design contemporâneo"
     },
     {
       title: "Closet Funcional", 
-      image: "/roupeiro.jpg",
+      image: "cortina2.jpg",
       description: "Closet otimizado com máximo aproveitamento"
     },
     {
-      title: "Quarto Sob Medida",
-      image: "/moveis2.jpg",
-      description: "Quarto funcional e elegante"
+      title: "Home Office",
+      image: "/cortina3.jpg",
+      description: "Escritório em casa funcional e elegante"
     },
     {
       title: "Sala de Estar",
-      image: "/moveis1.jpg",
+      image: "/cortina4.jpg",
       description: "Móveis sob medida para sala de estar"
     }
   ];
