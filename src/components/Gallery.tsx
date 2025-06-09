@@ -21,7 +21,7 @@ export const Gallery = () => {
     {
       title: "Sala de Estar",
       image: "/cortina4.jpg",
-      description: "Móveis sob medida para sala de estar"
+      description: "Cortinas sob medida para sala de estar"
     }
   ];
 
