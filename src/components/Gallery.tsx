@@ -4,24 +4,24 @@ import React from 'react';
 export const Gallery = () => {
   const projects = [
     {
-      title: "Cozinha Moderna",
+      title: "Quarto",
       image: "/cortina1.jpg",
-      description: "Cozinha planejada com design contemporâneo"
+      description: "Luxo e Exclusividade em cada detalhe"
     },
     {
-      title: "Closet Funcional", 
+      title: "Escritorio", 
       image: "cortina2.jpg",
-      description: "Closet otimizado com máximo aproveitamento"
+      description: "Luxo e Exclusividade em cada detalhe"
     },
     {
-      title: "Home Office",
+      title: "Sala",
       image: "/cortina3.jpg",
-      description: "Escritório em casa funcional e elegante"
+      description: "Luxo e Exclusividade em cada detalhe"
     },
     {
-      title: "Sala de Estar",
+      title: "Banheiro",
       image: "/cortina4.jpg",
-      description: "Cortinas sob medida para sala de estar"
+      description: "Luxo e Exclusividade em cada detalhe"
     }
   ];
 
